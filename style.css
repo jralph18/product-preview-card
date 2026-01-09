@@ -20,6 +20,8 @@ main {
     box-sizing: border-box;
     padding: 5rem 1rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, p {
@@ -41,9 +43,6 @@ h1, h2, p {
 .product-image {
     width: 100%;
     overflow: hidden;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .product-image__mobile {
@@ -57,7 +56,6 @@ h1, h2, p {
 .product-image img {
     max-inline-size: 100%;
     block-size: auto;
-    /* aspect-ratio: 700/684; */
     object-fit: cover;
 }
 
@@ -141,8 +139,6 @@ h1, h2, p {
 
     main {
         padding: 0;
-        display: flex;
-        justify-content: center;
     }
 
     .product-card {
