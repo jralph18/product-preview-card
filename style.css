@@ -130,7 +130,7 @@ h1, h2, p {
     cursor: pointer;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 38rem) {
     body {
         height: 100vh;
         align-items: center;
