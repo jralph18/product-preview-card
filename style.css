@@ -35,7 +35,6 @@ h1, h2, p {
     overflow: hidden;
     font-family: var(--font-family-sans-serif);
     width: 100%;
-    max-width: 25rem;
     display: flex;
     flex-direction: column;
 }
